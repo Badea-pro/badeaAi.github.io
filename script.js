@@ -1,8 +1,6 @@
-document
-  .getElementById('submit-btn')
-  .addEventListener('click', function () {
-    sendToChatGPT();
-  });
+document.getElementById('submit-btn').addEventListener('click', function () {
+  sendToChatGPT();
+});
 
 function sendToChatGPT() {
   let value = document.getElementById('word-input').value;
@@ -14,8 +12,7 @@ function sendToChatGPT() {
   };
 
   let headers = {
-    Authorization:
-      'Bearer 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',
+    Authorization: 'Bearer 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',
   };
 
   axios

@@ -15,7 +15,7 @@ function sendToChatGPT() {
 
   let headers = {
     Authorization:
-      'Bearer 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',
+      'Bearer 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',
   };
 
   axios
